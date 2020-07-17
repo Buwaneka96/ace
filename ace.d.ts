@@ -789,6 +789,7 @@ export namespace Ace {
     remove(dir?: 'left' | 'right'): void;
     removeWordRight(): void;
     removeWordLeft(): void;
+    removeMatchedVariableStartLeft(varName: string): void;
     removeLineToEnd(): void;
     splitLine(): void;
     transposeLetters(): void;
